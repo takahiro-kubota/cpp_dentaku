@@ -3,9 +3,9 @@ name: CMake_ARM
 on:
   push:
     tags: '*'
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 env:
   BUILD_TYPE: Release
